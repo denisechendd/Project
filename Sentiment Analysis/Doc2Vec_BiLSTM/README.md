@@ -15,6 +15,7 @@
 - transforms text data into embedding layer for deep learning Model
 
 ### Deep Learning Model
+![alt text][photo/BiLSTM_model.png]
 - ``Embedding(1000, 100 ,input_length=800)``
    - input words have 800 in each document
    - vocab size 1000 (with integer encoded words from 0 to 999)
@@ -38,8 +39,11 @@
 4. Use 5000 Vocab size of Tkenizer into the model
 
 ### Notes to improve model performance:
-- increase vocab size of the tokenizer
-
+- Put Doc2Vec pretrained embedding into deep learning Model
+- Set pretrained words embedding to be trained into the embedding layer
+- Add more epochs for model training
+- Add more layers since training document is large (35000 messages for training and 15000 for test)
+- Set dropout rate for robust model on training and validation dataset
 
 ### References:
 - How to Use Word Embedding Layers for Deep Learning with Keras, <br>https://machinelearningmastery.com/use-word-embedding-layers-deep-learning-keras/
