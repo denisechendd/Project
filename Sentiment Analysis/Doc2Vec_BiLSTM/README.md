@@ -33,7 +33,7 @@
 
 ### Model Performance Comparison
 1. Transfer text into tokenizers, transform tokenizer into integer encoded, and feed into pad sequences for same length of each input text
-![GitHub Logo](photo/photo_1.png)
+![GitHub Logo](photo/photo_1.png=200x100)
 2. Take doc2vec pretrained words embedding to feed as weights into the model (not update the learned word weights in this model)
 ![GitHub Logo](photo/photo_2.png)
 3. Take doc2vec pretrained words embedding to feed as weights into the model (update the learned word weights in this model) <br>Set parameter``trainable=True``
@@ -42,12 +42,11 @@
 ### Analysis
 First Approach | Second Approach | Third Approach
 ------------ | ------------- | -------------
-Overfitting on training data<br>Validation Acc decrease with more epochs | Validation Acc higher than Training Acc after 2nd epoch | Validation Acc higher than Training Acc from 1st epoch
+- Overfitting on training data<br>- Validation Acc decrease with more epochs | - Validation Acc higher than Training Acc after 2nd epoch <br>**dropout rate is high so model is more robust to validation data** | - Validation Acc higher than Training Acc from 1st epoc <br>**dropout rate is high so model is more robust to validation data**
 
 ### Notes to improve model performance:
-- Put Doc2Vec pretrained embedding into deep learning Model
-- Set pretrained words embedding to be trained into the embedding layer
-- Add more epochs for model training
+- Put Doc2Vec pretrained embedding into deep learning Model for more epochs
+- Set pretrained words embedding to be trained into the embedding layer for more epochs
 - Add more layers since training document is large (35000 messages for training and 15000 for test)
 - Set dropout rate for robust model on training and validation dataset
 
