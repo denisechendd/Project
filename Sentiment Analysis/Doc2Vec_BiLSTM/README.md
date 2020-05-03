@@ -32,11 +32,17 @@
   - Used for binary classification problem
 
 ### Model Performance Comparison
-1. take doc2vec pretrained words embedding to feed as weights into the model (not update the learned word weights in this model)
-2. take doc2vec pretrained words embedding to feed as weights into the model (pdate the learned word weights in this model) <br>Set parameter``trainable=True``
-**First two methods: Embedding layer (35000, 300) needs to match with the input data shape (35000, 800) and the vocab size in tokenizer as 350, and output of doc2vec shape to be 350**
-3. Use 1000 Vocab size for Tokenizer into the model
-4. Use 5000 Vocab size of Tkenizer into the model
+1. Transfer text into tokenizers, transform tokenizer into integer encoded, and feed into pad sequences for same length of each input text
+![GitHub Logo](photo/photo_1.png)
+2. Take doc2vec pretrained words embedding to feed as weights into the model (not update the learned word weights in this model)
+![GitHub Logo](photo/photo_2.png)
+3. Take doc2vec pretrained words embedding to feed as weights into the model (update the learned word weights in this model) <br>Set parameter``trainable=True``
+![GitHub Logo](photo/photo_3.png)
+
+### Analysis
+First Approach | Second Approach | Third Approach
+------------ | ------------- | -------------
+Overfitting on training data<br>Validation Acc decrease with more epochs | Validation Acc higher than Training Acc after 2nd epoch | Validation Acc higher than Training Acc from 1st epoch
 
 ### Notes to improve model performance:
 - Put Doc2Vec pretrained embedding into deep learning Model
