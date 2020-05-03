@@ -33,7 +33,7 @@
 
 ### Model Performance Comparison
 1. Transfer text into tokenizers, transform tokenizer into integer encoded, and feed into pad sequences for same length of each input text
-![GitHub Logo](photo/photo_1.png=200x100)
+![GitHub Logo](photo/photo_1.png =200x100)
 2. Take doc2vec pretrained words embedding to feed as weights into the model (not update the learned word weights in this model)
 ![GitHub Logo](photo/photo_2.png)
 3. Take doc2vec pretrained words embedding to feed as weights into the model (update the learned word weights in this model) <br>Set parameter``trainable=True``
