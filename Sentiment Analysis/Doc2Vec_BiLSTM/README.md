@@ -15,7 +15,7 @@
 - transforms text data into embedding layer for deep learning Model
 
 ### Deep Learning Model
-![alt text][photo/BiLSTM_model.png]
+![alt text][/photo/BiLSTM_model.png]
 - ``Embedding(1000, 100 ,input_length=800)``
    - input words have 800 in each document
    - vocab size 1000 (with integer encoded words from 0 to 999)
