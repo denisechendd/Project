@@ -42,7 +42,7 @@
 ### Analysis
 First Approach | Second Approach | Third Approach
 ------------ | ------------- | -------------
-* Overfitting on training data<br>* Validation Acc decrease with more epochs | * Validation Acc higher than Training Acc after 2nd epoch <br>**dropout rate is high so model is more robust to validation data** | * Validation Acc higher than Training Acc from 1st epoc <br>**dropout rate is high so model is more robust to validation data**
+*Overfitting on training data<br> *Validation Acc decrease with more epochs | *Validation Acc higher than Training Acc after 2nd epoch <br>**dropout rate is high so model is more robust to validation data** | * Validation Acc higher than Training Acc from 1st epoc <br>**dropout rate is high so model is more robust to validation data**
 
 ### Notes to improve model performance:
 - Put Doc2Vec pretrained embedding into deep learning Model for more epochs
