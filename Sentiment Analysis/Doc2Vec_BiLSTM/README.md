@@ -33,7 +33,7 @@
 
 ### Model Performance Comparison
 1. Transfer text into tokenizers, transform tokenizer into integer encoded, and feed into pad sequences for same length of each input text
-img src=<https://github.com/denisechendd/Project/blob/master/Sentiment%20Analysis/Doc2Vec_BiLSTM/photo/photo_1.png height="250" width="150">
+<img src=https://github.com/denisechendd/Project/blob/master/Sentiment%20Analysis/Doc2Vec_BiLSTM/photo/photo_1.png height="250" width="150">
 2. Take doc2vec pretrained words embedding to feed as weights into the model (not update the learned word weights in this model)
 ![image](photo/photo_2.png)
 3. Take doc2vec pretrained words embedding to feed as weights into the model (update the learned word weights in this model) <br>Set parameter``trainable=True``
