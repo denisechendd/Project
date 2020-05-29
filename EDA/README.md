@@ -8,7 +8,7 @@
 - Jupyter files **Analytics_Plot.ipynb**
   - Analytics on worldwide dataset from 2016 to 2019
 - Python files **EDA_Plot.py**
-  - Command: bokeh serve --show EDA_Plot.py
+  - Command: **bokeh serve --show EDA_Plot.py**
   - Dynamic choropleth Plot from 2016 to 2019
 
 ## Bokeh_Static Plot
