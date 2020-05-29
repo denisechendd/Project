@@ -11,6 +11,8 @@
 
 ## Bokeh_Static Plot
 1. Static choropleth map for year 2015
+### Analytics:
+From the plot below, we see that countries like Canada, Mexico, and Australia have a higher happiness score. For South America, and European countries, the overall score is distributed around Index 5 and 6. In Contrast, African countries like Niger, Chad, Mali, and Benin show a much lower happiness index.
 ![GitHub Logo](photo/photo_1.png)
 2. Scatter Plot of GDP & Happiness_Score Index in 2016
 ![GitHub Logo](photo/photo_2.png)
