@@ -12,11 +12,11 @@
 ## Bokeh_Static Plot
 ### 1. Static choropleth map for year 2015
 ### Analytics:
-From the plot below, we see that countries like Canada, Mexico, and Australia have a higher happiness score. For South America, and European countries, the overall score is distributed around Index 5 and 6. In Contrast, African countries like Niger, Chad, Mali, and Benin show a much lower happiness index. <br>
+From the plot below, we see that countries like Canada, Mexico, and Australia have a higher happiness score. For South America, and European countries, the overall score is distributed around Index 5 and 6. In Contrast, African countries like Niger, Chad, Mali, and Benin show a much lower happiness index. <br />
 ![GitHub Logo](photo/photo_1.png)
 ### 2. Scatter Plot of GDP & Happiness_Score Index in 2016
 ### Analytics:
-We look into the correlation of GDP Growth and happiness levels score in 2016. As the countries are color-coded by regions, we can see that southeast countries have lower GDP growth followed by underlying happiness scores. Most countries in central and eastern Europe have GDP growth fall within 0.8 and 1.4 with a happiness score between 5 and 6. For the region of Western Europe, they tend to show a higher range of economic growth along with the happiness index. <br>
+We look into the correlation of GDP Growth and happiness levels score in 2016. As the countries are color-coded by regions, we can see that southeast countries have lower GDP growth followed by underlying happiness scores. Most countries in central and eastern Europe have GDP growth fall within 0.8 and 1.4 with a happiness score between 5 and 6. For the region of Western Europe, they tend to show a higher range of economic growth along with the happiness index. <br/>
 ![GitHub Logo](photo/photo_2.png)
 ### 3. Top and Bottom 10 Countries of Economy Index (GDP per capita)
 ### Analytics:
