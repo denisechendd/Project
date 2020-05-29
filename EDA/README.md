@@ -12,16 +12,13 @@
 ## Bokeh_Static Plot
 1. Static choropleth map for year 2015
 ![GitHub Logo](photo/photo_1.png)
-<img src=https://github.com/denisechendd/Project/blob/master/EDA/photo/photo_1.png height="250" width="550">
 2. Scatter Plot of GDP & Happiness_Score Index in 2016
 ![GitHub Logo](photo/photo_2.png)
-<img src=https://github.com/denisechendd/Project/blob/master/EDA/photo/photo_2.png height="250" width="550">
 3. Top and Bottom 10 Countries of Economy Index (GDP per capita)
 ![GitHub Logo](photo/photo_3.png)
-<img src=https://github.com/denisechendd/Project/blob/master/EDA/photo/photo_3.png height="250" width="550">
 4. UAE Yearly GDP Change
 ![GitHub Logo](photo/photo_4.png)
-<img src=https://github.com/denisechendd/Project/blob/master/EDA/photo/photo_4.png height="250" width="550">
+
 
 
 ### Preprocessing
@@ -38,6 +35,10 @@
 - transforms text data into embedding layer for deep learning Model
 
 ### Deep Learning Model
+<img src=https://github.com/denisechendd/Project/blob/master/EDA/photo/photo_1.png height="250" width="550">
+<img src=https://github.com/denisechendd/Project/blob/master/EDA/photo/photo_2.png height="250" width="550">
+<img src=https://github.com/denisechendd/Project/blob/master/EDA/photo/photo_3.png height="250" width="550">
+<img src=https://github.com/denisechendd/Project/blob/master/EDA/photo/photo_4.png height="250" width="550">
 ![GitHub Logo](photo/BiLSTM_model.png)
 - ``Embedding(1000, 100 ,input_length=800)``
    - input words have 800 in each document
